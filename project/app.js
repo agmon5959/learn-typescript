@@ -1,3 +1,7 @@
+// JS파일을 TS처럼 코딩하는 방법
+// TS의 실무적인 관점에서 가장 강력한 점은 API 와의 인터페이스를 정의할 수 있다는 것이다.
+// @ts-check
+
 // utils
 function $(selector) {
   return document.querySelector(selector);
@@ -5,8 +9,6 @@ function $(selector) {
 function getUnixTimestamp(date) {
   return new Date(date).getTime();
 }
-
-// 커밋테스트
 
 // DOM
 const confirmedTotal = $(".confirmed-total");
