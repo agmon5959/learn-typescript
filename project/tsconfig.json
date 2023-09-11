@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "allowJs": true,  // 현재 파일 내에 있는 JS파일까지 검사해준다.
+        "target": "ES5",
+        "outDir": "./bulit",
+        "moduleResolution": "Node",
+    },
+    "include": ["./src/**/*"]
+}
