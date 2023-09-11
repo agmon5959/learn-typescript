@@ -40,10 +40,15 @@ function createSpinnerElement(id) {
 let isDeathLoading = false;
 let isRecoveredLoading = false;
 
+/**
+ * @typedef {object} CodivSummary
+ * @property {Array<object>} Country
+ */
+
 // api
 /**
  *
- * @returns {Promise}
+ * @returns {Promise<CodivSummary>}
  */
 function fetchCovidSummary() {
   const url = "https://api.covid19api.com/summary";
